@@ -1,0 +1,229 @@
+html{
+scroll-behavior: smooth;
+}
+section {
+    padding: 100px 20px;
+    margin: 0 auto;
+}
+body{
+    background-color: #080c3d;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 90%;
+    padding: 20px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 35px;
+}
+a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+li:hover a,
+li:active a{
+    color: #b57015;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+}
+.home-info h1{
+    font-size: 55px;
+}
+#hi_heading{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.home-info .button{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #b57015;
+    border: 2px solid #b57015;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #b57015;
+    font-size: 16px;
+    color: #080c3d;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: transparent;
+    color: #b57015;
+    box-shadow: none;
+}
+.sci{
+    margin-left: 20px;
+}
+.home-info .button .sci a{
+display: inline-flex;
+padding: 8px;
+border: 2px solid #b57015;
+border-radius: 50%;
+font-size: 20px;
+color: #b57015;
+margin: 0 8px;
+transition: 0.5s;
+}
+.home-info .button .sci a:hover{
+    background: #b57015;
+    color: #080c3d;
+    box-shadow: 0 0 10px #b57015;
+}
+.img-box{
+    width: 32vw;
+    height: 32vw;
+    background: red;
+    border-radius: 50%;
+}
+.img-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("saroj5.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-item img{
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+}
+.skills h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.skills {
+    background: #080c3d;
+    padding: 4rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.skill {
+    margin-bottom: 1.5rem;
+}
+
+.progress {
+    background: #ddd;
+    border-radius: 20px;
+    height: 20px;
+    width: 80%;
+    margin: 0.5rem auto;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #6a11cb;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.9rem;
+}
+.contact {
+    background-color: #080c3d;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff; 
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.contact form textarea {
+    resize: none; 
+}
+
+.contact form .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form .btn:hover {
+    background-color: #0056b3; 
+}
+
+
